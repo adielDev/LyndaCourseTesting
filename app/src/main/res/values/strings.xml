@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LyndaCourseTesting</string>
+
+    <string-array name="mainlist">
+        <item>JavaTestingActivity</item>
+        <item>CustomAlertDialog</item>
+        <item>FontsActivty</item>
+        <item>LifeCycleActivity</item>
+        <item>ServiceExampleOne</item>
+        <item>TimerActivity</item>
+        <item>ShapeActivity</item>
+        <item>AnnotationActivity</item>
+    </string-array>
+</resources>
