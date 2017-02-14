@@ -3,8 +3,8 @@
 
     <string-array name="mainlist">
         <item>JavaTestingActivity</item>
-        <item>CustomAlertDialog</item>
-        <item>FontsActivty</item>
+        <item>InstruTestExample</item>
+        <item>SimpleBoundAct</item>
         <item>LifeCycleActivity</item>
         <item>ServiceExampleOne</item>
         <item>TimerActivity</item>

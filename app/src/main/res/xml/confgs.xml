@@ -2,4 +2,6 @@
 
     <map linked="true">
         <entry key="JavaTestingActivity">adiel.lyndacoursetesting.activities.JavaTestingActivity</entry>
+        <entry key="InstruTestExample">adiel.lyndacoursetesting.activities.InstruTestExample</entry>
+        <entry key="SimpleBoundAct">adiel.lyndacoursetesting.activities.SimpleBoundAct</entry>
     </map>
