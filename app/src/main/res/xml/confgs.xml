@@ -4,4 +4,5 @@
         <entry key="JavaTestingActivity">adiel.lyndacoursetesting.activities.JavaTestingActivity</entry>
         <entry key="InstruTestExample">adiel.lyndacoursetesting.activities.InstruTestExample</entry>
         <entry key="SimpleBoundAct">adiel.lyndacoursetesting.activities.SimpleBoundAct</entry>
+        <entry key="AsyncTestActivity">adiel.lyndacoursetesting.activities.AsyncTestActivity</entry>
     </map>

@@ -15,6 +15,9 @@ import org.xmlpull.v1.XmlPullParser;
 import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
+import java.util.logging.Level;
+
+import adiel.lyndacoursetesting.logs.MyLogger;
 
 public class MainActivity extends AppCompatActivity {
     Map<String,String> classMap;
@@ -23,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        //Log.isLoggable("d")
 
         ListView lv = (ListView) findViewById(R.id.lv);
         final String[] entries = getResources().getStringArray(R.array.mainlist);
@@ -53,6 +57,8 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        Log.e("adiel","MainActivity:onCReate");
+        MyLogger.log("onCReate");
     }
 
 
@@ -106,6 +112,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onDestroy() {
+        MyLogger.log("MainActivity:onDestroy");
         Log.d("adiel","MainActivity:onDestroy");
         super.onDestroy();
     }
@@ -113,7 +120,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        Log.d("adiel","MainActivity:onResume");
+       // Log.isLoggable("d", Log.DEBUG);
+        MyLogger.log("onResume");
+        Log.d("adiel","MainActivity:onResume ,IS LOGGABLE");
         //registerReceiver(broadcastReceiver,intentFilter);
 
     }
@@ -121,6 +130,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onPause() {
         super.onPause();
+        MyLogger.log("onPause");
         Log.d("adiel","MainActivity:onPause");
     }
 }

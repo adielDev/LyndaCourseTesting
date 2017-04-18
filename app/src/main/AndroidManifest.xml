@@ -28,7 +28,8 @@
             android:enabled="true"
             android:exported="true" />
 
-        <activity android:name=".activities.SimpleBoundAct"></activity>
+        <activity android:name=".activities.SimpleBoundAct" />
+        <activity android:name=".activities.AsyncTestActivity"></activity>
     </application>
 
 </manifest>
